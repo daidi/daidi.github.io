@@ -166,7 +166,7 @@ export default function App() {
         ];
         break;
       case 'contact':
-        text = "Best ways to connect with Daidi:\n\n🏢 **Company**: Tencent Technology (Shanghai) Co., Ltd\n📍 **Location**: Shanghai, China\n🐙 **GitHub**: github.com/daidi\n✉️ **Email**: dannydai@tencent.com\n🌐 **Blog**: codegg.cn\n\nHe's open to collaboration on developer tooling, AI agents, and anything that makes engineers faster.";
+        text = "Best ways to connect with Daidi:\n\n🏢 **Company**: Tencent Technology (Shanghai) Co., Ltd\n📍 **Location**: Shanghai, China\n🐙 **GitHub**: github.com/daidi\n✉️ **Email**: dannydai@tencent.com\n🌐 **Blog**: codegg.org\n\nHe's open to collaboration on developer tooling, AI agents, and anything that makes engineers faster.";
         nextSuggestions = [
           { id: 'projects', label: '🛠 Show me the projects' },
           { id: 'stack', label: '⚡ What tech does he use?' }
@@ -229,7 +229,7 @@ export default function App() {
 
       {/* Bottom floating input pill */}
       <div className="absolute bottom-0 left-0 right-0 pointer-events-none z-50">
-        <div 
+        <div
           className="max-w-2xl mx-auto p-6"
           onClick={() => {
             if (isProcessing) return;
